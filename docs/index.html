@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EVALUACION FINAL MODULO 2 YSF</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/9e21a44317.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Buscador de series de anime</h1>
+    </header>
+
+    <main>
+      <section>
+        <figure class="figure-hero">
+          <img class="hero" src="./assets/images/backgroung-header.jpg" />
+        </figure>
+        <form class="form">
+          <input
+            class="form__input js-input"
+            type="search"
+            name="input"
+            placeholder="   Naruto"
+            id="input"
+          />
+          <button class="form__button form__button-search js-btn-search">
+            Buscar
+          </button>
+          <button class="form__button form__button-reset js-btn-reset">Reset</button>
+        </form>
+      </section>
+
+      <section class="anime">
+        <article class="anime__favorite">
+          <h2 class="anime__favorite-title">Series favoritas</h2>
+          <ul class="anime__favorite-list js-favorite-list"></ul>
+        </article>
+        <article class="anime__results">
+          <h2 class="anime__results-title">Resultados</h2>
+          <ul class="js-results-list anime__results-ul"></ul>
+          <div></div>
+        </article>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <p>Created by Yaiza Soria Felices</p>
+      <p>2022</p>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

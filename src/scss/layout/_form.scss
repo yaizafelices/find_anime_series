@@ -1,0 +1,67 @@
+.figure-hero{
+    @media all and (min-width: 768px){
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.hero{
+    margin-bottom: 10px;
+    width: 100%;
+
+    @media all and (min-width: 768px){
+        margin-bottom: 30px;
+        width: 50%;
+    }
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 0 20px 30px 20px;
+    gap: 10px;
+    height: 35px;
+
+    @media all and (min-width: 768px){
+        gap: 30px;
+        margin: 0 20px 30px 20px;
+    }
+
+    &__input{
+        background-color: $color-white;
+        color: $color-background;
+        width: 230px;
+        border: none;
+
+        @media all and (min-width: 768px){
+            width: 350px;
+            border-radius: 35px;
+        }
+    }
+
+    &__button{
+        width: 70px;
+        border: none;
+        border-radius: 7%;
+        text-transform: uppercase;
+
+        @media all and (min-width: 768px){
+            width: 150px;
+            border-radius: 15px;
+        }
+        
+        &-search{
+            background-color: $color-font;
+            color: $color-background;
+            
+        }
+    
+        &-reset{
+            background-color: $color-font-secondary;
+            color: $color-background;
+        }
+    }
+
+}
+
+
